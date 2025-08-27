@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.67332ddc.css",
+    "main.js": "/static/js/main.0209bedd.js",
+    "static/media/DNA.png": "/static/media/DNA.f2cbfc9126bbc802556f.png",
+    "index.html": "/index.html",
+    "main.67332ddc.css.map": "/static/css/main.67332ddc.css.map",
+    "main.0209bedd.js.map": "/static/js/main.0209bedd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67332ddc.css",
+    "static/js/main.0209bedd.js"
+  ]
+}
