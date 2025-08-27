@@ -1,0 +1,465 @@
+
+
+
+/* logo */
+.logo{
+    height: 5rem;
+}
+
+
+#home{
+    background-image: url("/public/assets/DNA.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+
+
+/* hero */
+.home-title {
+    color: #090e1b;
+}
+
+
+
+
+/* about */
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-tl-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+
+    h4{
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+
+}
+
+
+
+
+.about-panel {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 1.25rem;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.05);
+  overflow: hidden;
+  margin-top: 2rem;
+}
+
+.panel-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 2rem;
+  transition: background 0.3s ease;
+}
+
+.panel-item:hover {
+  background: #f0f9ff;
+}
+
+.panel-icon {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #263c86;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: white;
+  box-shadow: 0 4px 12px rgba(14,165,233,0.25);
+}
+
+.panel-item h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0;
+}
+
+.panel-item p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #475569;
+  margin: 0.25rem 0 0 0;
+  max-width: 32rem;
+}
+
+.panel-divider {
+  height: 1px;
+  background: #e2e8f0;
+}
+
+@media (min-width: 768px) {
+  .about-panel {
+    flex-direction: row;
+  }
+  .panel-item {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .panel-divider {
+    width: 1px;
+    height: auto;
+  }
+}
+
+
+
+.py-14 {
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+}
+
+
+
+
+
+
+/* HEALTHCARE SERVICES */
+/* Grid for responsive layout */
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* Service card styling */
+.service-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0; /* slate-200 */
+  border-radius: 1rem;
+  padding: 1.75rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+  border-color: #0ea5e9; /* highlight on hover */
+}
+
+/* Icons for each service */
+.service-icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #0ea5e9 0%, #38bdf8 100%);
+  box-shadow: 0 2px 6px rgba(14, 165, 233, 0.3);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+}
+
+/* Different icons per service */
+.service-icon.infertility {
+  -webkit-mask-image: url('https://cdn-icons-png.flaticon.com/512/4149/4149670.png');
+  mask-image: url('https://cdn-icons-png.flaticon.com/512/4149/4149670.png');
+  background-color: white;
+}
+
+.service-icon.skin {
+  -webkit-mask-image: url('https://cdn-icons-png.flaticon.com/512/2920/2920277.png');
+  mask-image: url('https://cdn-icons-png.flaticon.com/512/2920/2920277.png');
+  background-color: white;
+}
+
+.service-icon.cosmetology {
+  -webkit-mask-image: url('https://cdn-icons-png.flaticon.com/512/482/482139.png');
+  mask-image: url('https://cdn-icons-png.flaticon.com/512/482/482139.png');
+  background-color: white;
+}
+
+/* Card heading */
+.service-card h3 {
+  font-size: 1.25rem; /* Tailwind text-xl */
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #0f172a; /* slate-900 */
+}
+
+/* Card text */
+.service-card p {
+  font-size: 1rem;
+  color: #475569; /* slate-600 */
+  line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TECHNOLOGY SOLUTIONS  */
+/* Grid container for responsive layout */
+.tech-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .tech-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Card styling */
+.tech-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0; /* Tailwind slate-200 */
+  border-radius: 1rem;
+  padding: 1.75rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tech-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Icon styling */
+.tech-icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #0ea5e9 0%, #38bdf8 100%);
+  box-shadow: 0 2px 6px rgba(14, 165, 233, 0.3);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+}
+
+/* Custom icons using mask URLs */
+.tech-icon.cryo {
+  -webkit-mask-image: url('https://cdn-icons-png.flaticon.com/512/9521/9521727.png');
+  mask-image: url('https://cdn-icons-png.flaticon.com/512/9521/9521727.png');
+  background-color: white;
+}
+
+.tech-icon.products {
+  -webkit-mask-image: url('https://cdn-icons-png.flaticon.com/512/992/992703.png');
+  mask-image: url('https://cdn-icons-png.flaticon.com/512/992/992703.png');
+  background-color: white;
+}
+
+/* Card heading */
+.tech-card h3 {
+  font-size: 1.25rem; /* Tailwind text-xl */
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #0f172a; /* slate-900 */
+}
+
+/* Card text */
+.tech-card p {
+  font-size: 1rem;
+  color: #475569; /* slate-600 */
+  line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.contact-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0; /* light border */
+  border-radius: 1rem;
+  padding: 2rem;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Contact items */
+.contact-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  color: #334155; /* slate-700 */
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Icon placeholders */
+.contact-icon {
+  flex-shrink: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0ea5e9 0%, #38bdf8 100%);
+  box-shadow: 0 2px 6px rgba(14, 165, 233, 0.3);
+}
+
+/* Different icons using CSS mask (clean, scalable) */
+.contact-icon.location {
+  -webkit-mask: url('https://cdn-icons-png.flaticon.com/512/535/535239.png') no-repeat center;
+  -webkit-mask-size: contain;
+  mask: url('https://cdn-icons-png.flaticon.com/512/535/535239.png') no-repeat center;
+  mask-size: contain;
+  background-color: white;
+}
+
+.contact-icon.phone {
+  -webkit-mask: url('https://cdn-icons-png.flaticon.com/512/159/159832.png') no-repeat center;
+  -webkit-mask-size: contain;
+  mask: url('https://cdn-icons-png.flaticon.com/512/159/159832.png') no-repeat center;
+  mask-size: contain;
+  background-color: white;
+}
+
+.contact-icon.clock {
+  -webkit-mask: url('https://cdn-icons-png.flaticon.com/512/2088/2088617.png') no-repeat center;
+  -webkit-mask-size: contain;
+  mask: url('https://cdn-icons-png.flaticon.com/512/2088/2088617.png') no-repeat center;
+  mask-size: contain;
+  background-color: white;
+}
+
+/* Responsive tweaks */
+@media (max-width: 640px) {
+  .contact-card {
+    padding: 1.25rem;
+  }
+  .contact-item {
+    font-size: 0.95rem;
+  }
+  .contact-icon {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+
+
+/* footer */
+.footer {
+  background-color: #263c86; /* brand color */
+  color: #ffffff;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  margin-top: 1.5rem;
+}
+
+.footer-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    flex-direction: row;
+  }
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.footer-logo {
+    height: 65px;
+    border-radius: 3px;
+}
+
+.footer-helpline {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  opacity: 0.8;
+  text-align: right;
+}
+
+.footer-phone {
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-align: right;
+}
+
+.footer-copy {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  opacity: 0.9;
+  text-align: right;
+}
