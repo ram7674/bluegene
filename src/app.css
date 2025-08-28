@@ -15,11 +15,25 @@
     height: 90vh;
 }
 
+.home-card1 {
+  background-color: rgb(255 255 255 / 5%); /* White with 80% opacity */
+  backdrop-filter: blur(5px); /* optional: gives a frosted glass look */
+  border-radius: 12px;         /* optional: smooth corners */
+  padding: 30px 20px 30px;               /* optional: inner spacing */
+
+  p {
+    color: #ffffff;
+  }
+
+}
+
+
 
 
 /* hero */
 .home-title {
     color: #090e1b;
+    font-size: 2.8rem;
 }
 
 

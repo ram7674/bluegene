@@ -188,7 +188,7 @@ export default function BlueGeneWebsite() {
       <section id="home" className="relative overflow-hidden">
         <div className="absolute inset-0 -z-10 bg-gradient-to-b from-sky-50 via-white to-slate-50" />
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 lg:py-24 grid lg:grid-cols-2 gap-10 items-center">
-          <div>
+          <div className="home-card1">
             <h1 className="text-3xl md:text-5xl font-extrabold home-title">
               Personalized Healthcare Meets Advanced Technology
             </h1>
@@ -206,7 +206,7 @@ export default function BlueGeneWebsite() {
               </a>
               <a
                 href="#about"
-                className="rounded-xl border border-slate-300 px-5 py-3 font-medium text-slate-700 hover:bg-white"
+                className="rounded-xl border bg-white border-slate-300 px-5 py-3 font-medium text-slate-700 hover:bg-white"
               >
                 Meet Our Experts
               </a>
