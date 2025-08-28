@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/bluegene-website/static/css/main.174e1815.css",
-    "main.js": "/bluegene-website/static/js/main.ee2ce397.js",
-    "static/media/DNA.png": "/bluegene-website/static/media/DNA.f2cbfc9126bbc802556f.png",
-    "static/media/footerlogo.png": "/bluegene-website/static/media/footerlogo.145f2879b36358968868.png",
-    "static/media/logo.png": "/bluegene-website/static/media/logo.1f192b115ada834d3748.png",
-    "static/media/doctor-microscope.jpg": "/bluegene-website/static/media/doctor-microscope.6e6728419964c8dd05a1.jpg",
-    "index.html": "/bluegene-website/index.html",
-    "main.174e1815.css.map": "/bluegene-website/static/css/main.174e1815.css.map",
-    "main.ee2ce397.js.map": "/bluegene-website/static/js/main.ee2ce397.js.map"
+    "main.css": "./static/css/main.127b165b.css",
+    "main.js": "./static/js/main.c78ac4ab.js",
+    "static/media/DNA.png": "./static/media/DNA.f2cbfc9126bbc802556f.png",
+    "static/media/doctor-microscope.jpg": "./static/media/doctor-microscope.bb3a5f842ac3939974a0.jpg",
+    "static/media/footerlogo.png": "./static/media/footerlogo.145f2879b36358968868.png",
+    "static/media/logo.png": "./static/media/logo.1f192b115ada834d3748.png",
+    "index.html": "./index.html",
+    "main.127b165b.css.map": "./static/css/main.127b165b.css.map",
+    "main.c78ac4ab.js.map": "./static/js/main.c78ac4ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.174e1815.css",
-    "static/js/main.ee2ce397.js"
+    "static/css/main.127b165b.css",
+    "static/js/main.c78ac4ab.js"
   ]
 }

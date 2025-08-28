@@ -2,7 +2,7 @@
   "name": "bluegene-website",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://ram7674.github.io/bluegene-website",
+  "homepage": ".",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
