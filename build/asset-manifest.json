@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/bluegene-website/static/css/main.fee2bfb6.css",
-    "main.js": "/bluegene-website/static/js/main.bd2ced8b.js",
+    "main.css": "/bluegene-website/static/css/main.174e1815.css",
+    "main.js": "/bluegene-website/static/js/main.ee2ce397.js",
     "static/media/DNA.png": "/bluegene-website/static/media/DNA.f2cbfc9126bbc802556f.png",
+    "static/media/footerlogo.png": "/bluegene-website/static/media/footerlogo.145f2879b36358968868.png",
+    "static/media/logo.png": "/bluegene-website/static/media/logo.1f192b115ada834d3748.png",
+    "static/media/doctor-microscope.jpg": "/bluegene-website/static/media/doctor-microscope.6e6728419964c8dd05a1.jpg",
     "index.html": "/bluegene-website/index.html",
-    "main.fee2bfb6.css.map": "/bluegene-website/static/css/main.fee2bfb6.css.map",
-    "main.bd2ced8b.js.map": "/bluegene-website/static/js/main.bd2ced8b.js.map"
+    "main.174e1815.css.map": "/bluegene-website/static/css/main.174e1815.css.map",
+    "main.ee2ce397.js.map": "/bluegene-website/static/js/main.ee2ce397.js.map"
   },
   "entrypoints": [
-    "static/css/main.fee2bfb6.css",
-    "static/js/main.bd2ced8b.js"
+    "static/css/main.174e1815.css",
+    "static/js/main.ee2ce397.js"
   ]
 }

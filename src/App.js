@@ -1,16 +1,13 @@
 import React, { useState } from "react";
 import "./app.css";
 
-// ------------------------------
-// Use public path directly (no import needed)
-const LOGO = "/assets/logo.png";
-const FooterLogo = "/assets/Footer-Logo.png";
+import LOGO from "./assets/logo.png";
+import FooterLogo from "./assets/footerlogo.png";
 
 function BrandLogo({ className = "h-8" }) {
   return <img src={LOGO} alt="BlueGene Logo" className="logo" />;
 }
 
-// ------------------------------
 // REUSABLE DROPDOWN WITH RECURSION (supports sub and sub-sub menus)
 function Dropdown({ label, items }) {
   return (
@@ -189,13 +186,13 @@ export default function BlueGeneWebsite() {
         <div className="absolute inset-0 -z-10 bg-gradient-to-b from-sky-50 via-white to-slate-50" />
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 lg:py-24 grid lg:grid-cols-2 gap-10 items-center">
           <div className="home-card1">
-            <h1 className="text-3xl md:text-5xl font-extrabold home-title">
+            <h1 className="home-title">
               Personalized Healthcare Meets Advanced Technology
             </h1>
             <p className="mt-4 text-slate-600 max-w-2xl">
               From fertility care to dermatology and cosmetology, and from
-              cryopreservation to lab automation, we offer clear guidance and
-              safe, evidence-based care.
+              cryopreservation to stem cell technology solutions, we offer clear
+              guidance and safe, evidence-based care.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a
@@ -213,11 +210,8 @@ export default function BlueGeneWebsite() {
             </div>
           </div>
           <div className="relative">
-            <div className="aspect-[4/3] w-full rounded-3xl border border-slate-200 bg-white shadow-inner grid place-items-center">
-              <div className="text-center text-slate-500">
-                <div className="mb-2 text-sm">Image / Illustration</div>
-                <div className="text-xs">(Replace with clinic/lab photo)</div>
-              </div>
+            <div className="bg-drimage">
+
             </div>
           </div>
         </div>
@@ -343,7 +337,6 @@ export default function BlueGeneWebsite() {
 
       {/* DOCTORS */}
       <Section id="doctors">
-        
         <div className="about-tl-card">
           <h4>Doctors</h4>
         </div>
@@ -390,7 +383,6 @@ export default function BlueGeneWebsite() {
 
       {/* LAB & QUALITY TEAM */}
       <Section id="labquality">
-
         <div className="about-tl-card">
           <h4>Lab & Quality Team</h4>
         </div>
@@ -427,7 +419,6 @@ export default function BlueGeneWebsite() {
         <p className="text-slate-600 mt-2">Working Hours: Mon–Sat, 9:00 AM – 7:00 PM</p>
       </Section> */}
       <Section id="contact">
-
         <div className="about-tl-card">
           <h4>Contact & Location</h4>
         </div>
